@@ -13,7 +13,8 @@
         "member-ordering" : false,
         "jsx-no-lambda" : false,
         "jsx-boolean-value" : false,
-        "interface-name" : false
+        "interface-name" : true,
+        "semicolon" : [true, "always"]
     },
     "rulesDirectory": []
 }
