@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import { Platform, Text, View } from 'react-native';
 import Header from './components/Header';
-import styles from './styles';
-import ReqCondition from './model/req/ReqCondition';
-import Api from './utilities/Api';
+import AlbumList from './components/AlbumList';
+import { View } from 'react-native';
 
 export default class App extends Component {
   public render() {
     return (
-      <Header headerText='Albums' />
+      <View>
+        <Header headerText='Albums' />
+        <AlbumList />
+      </View>
     );
   }
 }

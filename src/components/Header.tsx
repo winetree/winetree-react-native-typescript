@@ -22,10 +22,10 @@ const styles = StyleSheet.create({
 });
 
 const Header = (props: IProps) => {
-  const { textStyle, viewStyle } = styles;
+  // const { textStyle, viewStyle } = styles;
   return (
-    <View style={viewStyle}>
-      <Text style={textStyle}>{props.headerText}</Text>
+    <View>
+      <Text>{props.headerText}</Text>
     </View>
   );
 };
