@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import log from '../utilities/Logger';
 
 interface IProps {
   headerText: string;
